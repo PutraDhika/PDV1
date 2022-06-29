@@ -31,10 +31,10 @@ By : ${chalk.red('@PutraDhika')} - ${chalk.blue('Kull/')}
 
 Features :
 
-1. ${chalk.magenta('Reward : 1 Crown + 30 Trophy + 35 Star ( Stumble Pass ) + 3000 EXP')}
-2. ${chalk.magenta('Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')}
-3. ${chalk.magenta('Reward : 10 Trophy + 25 Star ( Stumble Pass ) + 500 EXP')}
-4. ${chalk.magenta('Reward : 20 Star ( Stumble Pass ) + 100 EXP')}
+1. ${chalk.blue('Reward : 1 Crown + 30 Trophy + 35 Star ( Stumble Pass ) + 3000 EXP')}
+2. ${chalk.red('Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')}
+3. ${chalk.yellow('Reward : 10 Trophy + 25 Star ( Stumble Pass ) + 500 EXP')}
+4. ${chalk.gray('Reward : 20 Star ( Stumble Pass ) + 100 EXP')}
 `);
 
     const feature = rs.question('[+] Enter feature needed : ');
