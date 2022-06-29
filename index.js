@@ -25,13 +25,9 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(`
-███████ ████████ ██    ██ ███    ███ ██████  ██      ███████         
-██         ██    ██    ██ ████  ████ ██   ██ ██      ██           
-███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████          
-     ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
-███████    ██     ██████  ██      ██ ██████  ███████ ███████    
+ (FIGLET) COMMINGSOON  
 
-By : ${chalk.red('@dkmpostor')} - ${chalk.blue('https://dkmpostor.netlify.app/')}
+By : ${chalk.red('@PutraDhika')} - ${chalk.blue('Kull/')}
 
 Features :
 
