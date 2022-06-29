@@ -64,8 +64,15 @@ Features :
                 const trophy = data.User.SkillRating;
                 const crown = data.User.Crowns;
                 
-                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} | ${chalk.blue(`Pass Star : ${tokenPass}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
-                await delay(time)
+                console.log(`\r
+♨  [${moment().format('HH:mm:ss')}]  -
+→  ${chalk.grey(`Negara By PutraDhika : ${country}`)}
+→  ${chalk.white(`Nama By PutraDhika : ${username}`)}
+→  ${chalk.gold(`Pass Star By PutraDhika : ${tokenPass}`)}
+→  ${chalk.cyan(`Exp By PutraDhika: ${exp}`)}  
+→  ${chalk.yellow(`Tropy By PutraDhika : ${trophy}`)}  
+→  ${chalk.red(`Crown By PutraDhika : ${crown}`)}
+→  ${chalk.green(`Status : ✔ Success`)}`);
 
             } else if (result == 'BANNED') {
 
